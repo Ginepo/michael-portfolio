@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Fernandez - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Michael Fernandez</h1>
+        <p>Computer Information Technology Professional Portfolio</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="theme-button" type="button">
+            Switch to dark mode
+        </button>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img
+                class="profile-photo"
+                src="profile.jpg"
+                alt="Portrait of Michael Fernandez"
+                width="180"
+            >
+
+            <p>
+                I am a Computer Information Technology (CIT) graduate
+                with a strong foundation in hardware and software
+                troubleshooting, networking fundamentals, operating
+                systems, and information security. This portfolio
+                represents my professional interests and technical
+                skills developed through academic training and
+                hands-on experience.
+            </p>
+
+            <p>
+                I am detail-oriented, reliable, and focused on
+                delivering efficient technology solutions.
+                My interests include system administration,
+                networking, cybersecurity fundamentals, and
+                supporting users through practical and secure
+                IT practices.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>Hardware and Software Troubleshooting</li>
+                <li>Networking Fundamentals (TCP/IP)</li>
+                <li>Operating Systems: Linux and Windows</li>
+                <li>Programming Basics: C#, Python, SQL, JavaScript</li>
+                <li>Database Fundamentals</li>
+                <li>Information Security Concepts</li>
+                <li>CompTIA A+ Certified</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+       
+
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+
+                <label for="email">Your Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <label for="message">Your Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="form-message" role="status"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Michael Fernandez. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
